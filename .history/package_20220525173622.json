@@ -5,8 +5,8 @@
   "author": "solishi <shiby94@hotmail.com>",
   "private": true,
   "scripts": {
-    "watchify": "watchify -vd -p -e src/main.js -o dist/build.js",
     "dev": "npm-run-all --parallel watchify serve",
+    //"dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "serve": "http-server -c 1 -a localhost",
     "lint": "eslint --ext .js,.vue src",
