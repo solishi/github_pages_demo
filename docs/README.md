@@ -2,44 +2,45 @@
 pageClass: home-page
 # some data for the components
 
-name: Harry Potter
-profile: /profile.jpg
+name: Boyang Shi
+#profile: /profile.jpg
 
 socials:
   - title: github
     icon: "/icons/github.svg"
-    link: https://github.com/mtobeiyf
+    link: https://github.com/solishi
   - title: linkedin
     icon: "/icons/linkedin-mono.svg"
-    link: https://www.linkedin.com
-  - title: instagram
-    icon: "/icons/instagram-mono.svg"
-    link: https://www.instagram.com
+    link: https://www.linkedin.com/in/byshi/
 
-cv: https://en.wikipedia.org/wiki/Harry_Potter
-bio: Student at Hogwarts School
-email: harry (at) hogwarts (dot) edu
+cv: https://drive.google.com/file/d/16FpWlsX0YUVSw8Cqx-uj8mSPjW39sx2o/view?usp=sharing
+bio: Recent graduate from University of Bishops
+email: solisshi (at) gmail (dot) com
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
 ## About Me
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. 
+I get my bachelor degree in Computer Engineering in [University of Michigan](https://http://www.umich.edu/)
 
-I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
+My research area includes Web develop and deep learning. :dizzy:
 
 
 ## News
 
-- [Sept 1991] Attended Hogwarts
-- [July 1980] Born in Godric's Hollow, West Country, England, Great Britain
-
+- [Sep 2013] Attend University of Michigan
+- [Nov 2019] Work at Taihuiren Company
+- [Sep 2020] Attend University of Bishops
 
 ## Education & Experiences
 
-- **Hogwarts School of Witchcraft and Wizardry** <br/>
-Sept 1991 - 1997
+- **University of Michigan** <br/>
+Sep 2013 - 2019 Bachlor Degree in Computer Engineering
+- **Taihuiren Company** <br/>
+Sep 2013 - 2019 Software Engineer
+- **University of Bishops** <br/>
+Sep 2013 - 2019 Master Degree in Data Science
 
 
 ## Projects
@@ -47,34 +48,22 @@ Sept 1991 - 1997
 
 [→ Full list](/projects/)
 
-<ProjectCard image="/projects/1.png" hideBorder=true>
+<ProjectCard  hideBorder=true>
 
-  **The Making of Harry Potter's Wand**
+  **IOT canteen**
 
-  Harry P., Hermione G., *et al*
-  
-  Harry's wand was broken in 1997, but was repaired by him after the 1998 Battle of Hogwarts. Usually the repair of a wand is impossible, but with the use of the Elder Wand it was achievable.
-  
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
+  :house:Taihuiren Company
+
+  *Face-recognition,Signal transmission,Tomcat,Mysql, Django,E-chart*
+
+- [Vue.js](https://github.com/solishi/yunlin)
+
+Learned about and implemented facial recognition, signal transmission, Tomcat, MySQL, Django, and ECharts. Collected data related to food waste by using electronic scales. Applied Bluetooth to transport local data. Wrote optimized
+analysis algorithms for data. Displayed real-time results charts on a 40-inch monitor. Encouraged employees to reduce
+their food waste.
+
 
 </ProjectCard>
-
-<ProjectCard hideBorder=true>
-
-  **Harry Potter and the Deathly Hallows**
-  
-  In the epilogue of Deathly Hallows, which is set 19 years after Voldemort's death, Harry and Ginny are a couple and have three children: James Sirius Potter, who has already been at Hogwarts for at least one year, Albus Severus Potter, who is starting his first year there, and Lily Luna Potter, who is two years away from her first year at the school.
-
-  [[Link](https://www.google.com)]
-
-</ProjectCard>
-
-
-## Awards & Honors
-
-### Contests
-
-- First place in **The Hogwarts House Cup**
 
 
 <!-- Custom style for this page -->
@@ -115,7 +104,7 @@ Sept 1991 - 1997
 
     .md-card
       .card-image
-        img 
+        img
           width 100%
           max-width 400px
 
