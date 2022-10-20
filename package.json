@@ -7,13 +7,16 @@
   "scripts": {
     "clean": "rimraf dist/*",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.9.7"
   },
   "dependencies": {
+    "bash": "^0.0.1",
+    "git": "^0.1.5",
     "markdown-it": "^8.4.1",
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-katex": "^2.0.3"
